@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Linktree of Dev Kaizen">
+    <title>Dev Kaizen | Official Links</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+    
+    <div class="ambient-light light-1"></div>
+    <div class="ambient-light light-2"></div>
+
+    <main class="main-container" id="tilt-card">
+        
+        <div class="glass-card">
+            
+            <header class="profile-header">
+                <div class="avatar-container">
+                    <div class="ripple-effect"></div>
+                    <div class="ripple-effect delay-1"></div>
+                    <img src="https://i.pravatar.cc/400?img=33" alt="Dev Kaizen" class="avatar-img">
+                    <div class="status-indicator"></div>
+                </div>
+                
+                <h1 class="profile-name">Dev Kaizen</h1>
+                
+                <p class="profile-role">
+                    <span id="typewriter"></span><span class="cursor">|</span>
+                </p>
+            </header>
+
+            <div class="links-group">
+                
+                <a href="https://discord.com" target="_blank" class="link-item discord" aria-label="Join Discord">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                    <span class="link-text">Join Discord Community</span>
+                    <div class="link-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="gloss-overlay"></div>
+                </a>
+
+                <a href="https://tiktok.com" target="_blank" class="link-item tiktok" aria-label="Follow TikTok">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                    <span class="link-text">Follow on TikTok</span>
+                    <div class="link-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="gloss-overlay"></div>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" class="link-item instagram" aria-label="Follow Instagram">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <span class="link-text">Follow on Instagram</span>
+                    <div class="link-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="gloss-overlay"></div>
+                </a>
+
+            </div>
+
+            <footer class="card-footer">
+                <p>Designed with precision.</p>
+                <p>&copy; 2024 Dev Kaizen</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

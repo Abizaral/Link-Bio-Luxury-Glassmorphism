@@ -3,7 +3,7 @@
 Sebuah halaman landing page personal (Link-in-Bio) dengan desain Luxury Glassmorphism. Dibangun menggunakan HTML5, CSS3, dan Vanilla JavaScript murni tanpa framework berat, difokuskan pada performa, estetika modern, dan interaksi pengguna yang imersif.
 ✨ Fitur Utama
 
-Project ini dilengkapi dengan fitur-fitur visual high-end untuk memberikan kesan profesional:
+# Project ini dilengkapi dengan fitur-fitur visual high-end untuk memberikan kesan profesional:
 
     💎 Advanced Glassmorphism UI: Efek kaca buram (backdrop-filter) yang realistis dengan border halus dan bayangan yang mendalam.
 
@@ -21,7 +21,7 @@ Project ini dilengkapi dengan fitur-fitur visual high-end untuk memberikan kesan
 
     Interactive Hover Effects: Efek kilap (glossy shine) dan animasi ikon saat kursor diarahkan ke tombol link.
 
-🛠️ Teknologi yang Digunakan
+# 🛠️ Teknologi yang Digunakan
 
     HTML5: Struktur semantik dan SEO friendly.
 
@@ -33,8 +33,8 @@ Project ini dilengkapi dengan fitur-fitur visual high-end untuk memberikan kesan
 
     Google Fonts: Tipografi modern menggunakan font Plus Jakarta Sans.
 
-🚀 Cara Instalasi & Penggunaan
-Cara 1: Menjalankan di Lokal (PC/Laptop)
+# 🚀 Cara Instalasi & Penggunaan
+    Cara 1: Menjalankan di Lokal (PC/Laptop)
 
     Download atau Clone repositori ini (pastikan 3 file utama ada: index.html, style.css, script.js).
 
@@ -54,7 +54,7 @@ Anda bisa mengonlinekan website ini menggunakan GitHub Pages, Vercel, atau Netli
 
     Website Anda akan langsung aktif (contoh: devkaizen.vercel.app).
 
-⚙️ Panduan Kustomisasi
+# ⚙️ Panduan Kustomisasi
 
 Anda dapat mengubah konten sesuai kebutuhan Anda dengan mengedit file berikut:
 1. Mengganti Foto Profil & Nama
@@ -95,7 +95,7 @@ CSS
     --accent-primary: #3b82f6; /* Warna Aksen Utama */
 }
 
-📂 Struktur Folder
+# 📂 Struktur Folder
 
 /
 ├── index.html   # Struktur utama halaman

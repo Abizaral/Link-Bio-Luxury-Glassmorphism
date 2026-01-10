@@ -292,3 +292,38 @@ canvas#bg-canvas {
     .glass-card { padding: 2rem 1.5rem; width: 95%; }
     .profile-name { font-size: 1.5rem; }
 }
+
+/* --- WHATSAPP STYLE --- */
+:root {
+    --whatsapp-color: #25D366; /* Warna Hijau WA */
+}
+
+/* Hover Effect Khusus WhatsApp */
+.link-item.whatsapp:hover {
+    border-color: rgba(37, 211, 102, 0.4);
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.2);
+}
+
+.link-item.whatsapp:hover .link-icon { 
+    color: var(--whatsapp-color); 
+    transform: scale(1.1) rotate(-10deg); /* Animasi icon miring sedikit */
+    text-shadow: 0 0 15px var(--whatsapp-color);
+}
+
+/* --- GITHUB STYLE --- */
+.link-item.github {
+    /* Opsional: Jika ingin background awal sedikit berbeda */
+    /* background: rgba(255, 255, 255, 0.05); */
+}
+
+.link-item.github:hover {
+    border-color: rgba(255, 255, 255, 0.5); /* Border Putih Terang */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Glow Putih */
+}
+
+.link-item.github:hover .link-icon { 
+    color: #ffffff; 
+    transform: scale(1.1) rotate(360deg); /* Animasi putar penuh 360 derajat (Keren untuk logo GitHub) */
+    transition: transform 0.6s ease; /* Putaran halus */
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
